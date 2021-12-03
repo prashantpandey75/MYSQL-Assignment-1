@@ -1,0 +1,1 @@
+select count(*) from salespeople where sname like 'A%' or sname like 'a%';
