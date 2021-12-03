@@ -1,0 +1,1 @@
+select salespeople.sname,sum(orders.amt) from salespeople join orders on orders.snum=salespeople.snum group by salespeople.sname having sum(orders.amt) >2000;
